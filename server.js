@@ -92,6 +92,11 @@ app.get('/pagecount', function (req, res) {
   }
 });
 
+app.get('/.well-known/asset-links.json', function(req,res) {
+
+  res.renderFile('../asset-links.json');
+}
+
 // error handling
 app.use(function(err, req, res, next){
   console.error(err.stack);

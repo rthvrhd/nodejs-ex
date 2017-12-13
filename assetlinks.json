@@ -1,0 +1,17 @@
+[{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "web",
+    "site": "https://hd-qa71.homedepotdev.com"
+  }
+ },
+ {
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.thehomedepot",
+    "sha256_cert_fingerprints": [
+      "18:F5:2D:1C:50:61:4C:AB:09:9D:AF:35:03:B4:FD:57:4A:A3:5A:CF:97:6C:57:67:A2:3F:7A:BB:5C:B2:DE:A1"
+    ]
+  }
+ }]
